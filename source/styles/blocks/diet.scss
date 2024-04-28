@@ -1,0 +1,56 @@
+.diet {
+  max-width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.diet__list {
+  margin: 0;
+  padding: 0;
+}
+
+.diet__item {
+  list-style-type: none;
+}
+
+.diet__title {
+  font-family: $primary-font;
+  font-size: 24px;
+  line-height: 37px;
+  text-align: left;
+  margin: 0;
+  padding: 30px 80px 0 20px;
+  @media (min-width: 768px) {
+    font-size: 36px;
+    line-height: 36px;
+  }
+}
+
+.diet__subtitle {
+  font-family: $secondary-font;
+  font-size: 14px;
+  line-height: 18px;
+  text-align: left;
+  color: $special-dark-grey;
+  padding: 29px 33px 0 20px;
+  @media (min-width: 768px) {
+    font-size: 16px;
+    line-height: 24px;
+  }
+}
+
+.diet__link-text {
+  font-family: $primary-font;
+  font-size: 16px;
+  line-height: 16px;
+  text-align: center;
+  color: #000000;
+  text-decoration: none;
+  padding: 19px 153px 0 20px;
+  @media (min-width: 768px) {
+    font-size: 20px;
+    line-height: 30px;
+  }
+}
+
+
